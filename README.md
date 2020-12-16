@@ -1,4 +1,4 @@
-#### YouTube Data extraction :Project Overview
+# YouTube Data extraction :Project Overview
 ----------------------------------------------------
 
 This repository is about extracting data from YouTube using the developer API. The goal is to analyze the #endsars# trend that rocked the entire world.
@@ -47,6 +47,7 @@ By defualt, jyputer notebook doesn't come with pre-installed packages for intera
 4. ### define your own module
 The next step I took was to hide my credentials by writing a script in my local container. I then imported the module in my script and call the credentials. First, I created a python script called dir having __init__.py and I created a second script in the same folder as the dir which I named key.py having credentials = {"DEVELOPER_KEY": "xxxxxxxx"} as the only script.
 4. Define a function for the script
+I proceeded to define a function to complete the task.
 5. Download and save in .py
-
+Working in jupyter notebook stores files in .ipynb but to save as a script, i.e. .py, I downloaded the file as Python(.py)
     

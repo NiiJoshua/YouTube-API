@@ -5,7 +5,7 @@ This repository is about extracting data from YouTube using the developer API
 ## Task
 The task is to write a script that extracts YouTube data to analyze the #endsars# trend that rocked the entire world.
 The script answers the following:
-..*	Filter out channels and playlists.
+*	Filter out channels and playlists.
 ..*	Get only videos published this year.
 ..*	Include videos that are between 4 to 20 mins long.
 ..*	Generic such that the search query can be changed.

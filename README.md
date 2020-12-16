@@ -1,4 +1,4 @@
-Alt -#### Youttube Data extraction :Project Overview
+#### YouTube Data extraction :Project Overview
 ----------------------------------------------------
 
 This repository is about extracting data from YouTube using the developer API. The goal is to analyze the #endsars# trend that rocked the entire world.
@@ -35,10 +35,17 @@ Articles that help complete the script
 * [video tutorial from Coursera](https://www.coursera.org/lecture/social-media-data-analytics/video-4-using-python-to-extract-data-from-youtube-hfelS)
 * [YouTube API documentations](https://youtube-data-api.readthedocs.io/en/latest/youtube_api.html)
 
-## Activities done
-1. Idealy the first step was to create a credential authorization credentials. What's needed is a google (gmail) account
-2. Set-up your environment. There're a number of environments data engineers can deploy for this exercise. E.g, google colab, jupyter notebook, etc.
-3. Install the necessary packages and updates (*if necessary*): apiclient, oauth2client
+## Activities done:
+1. ### Create Credentials
+Idealy the first step was to create a credential and generate authorization. What's needed is a google (gmail) account. [Use this link to create the account](https://developers.google.com/youtube/v3/getting-started). Getting authorization from google is instant not too stressful.
+
+2. ### Set-up your environment.
+The kind of environment to use is also key. There're a number of environments data engineers can deploy for this exercise. E.g, google colab, jupyter notebook, etc. I used jupyter notebook because I am conversant with it and also becuase all I do is saved on my local computer. For google colab, you'll need internet to creat your workspace and to access your files. In situations where you have unstable internet, it delays execution of your project.
+
+3. ### Install the necessary packages 
+By defualt, jyputer notebook doesn't come with pre-installed packages for interaction with youtube. I had to install the google apiclient ($ pip install --upgrade google-api-python-client), and the authentication client ($ pip install google-auth). Before installing these libraries, be sure to check your python version to aid install the appropriate client version and authentication version.
+4. ### define your own module
+The next step I took was to hide my credentials by writing a script in my local container. I then imported the module in my script and call the credentials. First, I created a python script called dir having __init__.py and I created a second script in the same folder as the dir which I named key.py having credentials = {"DEVELOPER_KEY": "xxxxxxxx"} as the only script.
 4. Define a function for the script
 5. Download and save in .py
 

@@ -25,10 +25,10 @@ The following video should contain the following attributes:
 *   A the column that builds the video URL using the video id
 
 ## Code and resources used
-**Python version** : 3.6
-**Packages** : json, pandas
-**Web Framework**: virtual environment, requirements.txt
-Articles that help complete the script
+...**Python version** : 3.6
+...**Packages** : json, pandas
+...**Web Framework**: virtual environment, requirements.txt
+...Articles that help complete the script
 * [Get started here](https://developers.google.com/youtube/v3/getting-started)
 * [Get the API key](https://rapidapi.com/blog/how-to-get-youtube-api-key)
 * [video tutorial from Coursera](https://www.coursera.org/lecture/social-media-data-analytics/video-4-using-python-to-extract-data-from-youtube-hfelS)

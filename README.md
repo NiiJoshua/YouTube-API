@@ -1,4 +1,4 @@
-# Project Overview
+#### Project Overview
 
 This repository is about extracting data from YouTube using the developer API
 
@@ -27,5 +27,8 @@ The following video should contain the following attributes:
 ## Code and resources used
 Articles that help complete the script
 • [Get started here](https://developers.google.com/youtube/v3/getting-started)
+• [Get the API key](https://rapidapi.com/blog/how-to-get-youtube-api-key)
+ [video tutorial from Coursera](https://www.coursera.org/lecture/social-media-data-analytics/video-4-using-python-to-extract-data-from-youtube-hfelS)
+ [YouTube API documentations](https://youtube-data-api.readthedocs.io/en/latest/youtube_api.html)
 
     

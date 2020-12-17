@@ -28,6 +28,7 @@ The following video should contain the following attributes:
 ## Code and resources used
 **Python version** : 3.6
 **Packages** : json, pandas
+**OS** :macOS Catalina
 **Web Framework**: virtual environment, requirements.txt
 Articles that help complete the script
 * [Get started here](https://developers.google.com/youtube/v3/getting-started)

@@ -45,10 +45,13 @@ The kind of environment to use is also key. There're a number of environments da
 
 3. ### Install the necessary packages 
 By defualt, jyputer notebook doesn't come with pre-installed packages for interaction with youtube. I had to install the google apiclient ($ pip install --upgrade google-api-python-client), and the authentication client ($ pip install google-auth). Before installing these libraries, be sure to check your python version to aid install the appropriate client version and authentication version.
+
 4. ### define your own module
 The next step I took was to hide my credentials by writing a script in my local container. I then imported the module in my script and call the credentials. First, I created a python script called dir having __init__.py and I created a second script in the same folder as the dir which I named key.py having credentials = {"DEVELOPER_KEY": "xxxxxxxx"} as the only script.
-4. Define a function for the script
+
+5. Define a function for the script
 I proceeded to define a function to complete the task.
-5. Download and save in .py
+
+6. Download and save in .py
 Working in jupyter notebook stores files in .ipynb but to save as a script, i.e. .py, I downloaded the file as Python(.py)
     

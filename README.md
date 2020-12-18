@@ -55,5 +55,5 @@ I proceeded to define a function to complete the task.
 Working in jupyter notebook stores files in .ipynb but to save as a script, i.e. .py, I downloaded the file as Python(.py)
 
 7. #### Create requirements.txt
-I wasn't using any text editor, so my only option was to use Vs Code to access my .py file to create a virtual environment and the requirements.txt. If you're new to using virtual environment, [this material](https://code.visualstudio.com/docs/python/python-tutorial) could be of help if you want to use Vs code.
+I used Vs Code to access my .py file to create a virtual environment and the requirements.txt. If you're new to using virtual environment, [this material](https://code.visualstudio.com/docs/python/python-tutorial) could be of help if you want to use Vs code.
     

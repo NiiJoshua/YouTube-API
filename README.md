@@ -1,5 +1,4 @@
 # YouTube Data extraction :Project Overview
-----------------------------------------------------
 
 This repository is about extracting data from YouTube using the developer API. The goal is to analyze the #endsars# trend that rocked the entire world.
 
